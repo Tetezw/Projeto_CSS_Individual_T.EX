@@ -1,5 +1,5 @@
 # Projeto CSS Individual - T.EX
-![Hotel Paraíso Web](images/Logo%20no%20site.png)
+![Hotel Paraíso Web](./images/Logo%20no%20site.png)
 ## Sobre 
 Projeto individual desenvolvido como parte integrante do curso Full Stack Javascript Developer da T.EX.
 
