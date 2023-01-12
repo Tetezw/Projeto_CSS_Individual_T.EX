@@ -13,7 +13,7 @@ $fonteSource: 'Source Sans Pro', sans-serif;
 $fonteBree: 'Bree Serif', serif;
 
 // IMAGENS 
-$imgBack: url(./../../images/swimming-2392283_960_720.jpg);
+$imgBack: url(./img/swimming-2392283_960_720.jpg);
 
 //Imagens da seção acomodações
 $imgs: (
@@ -29,7 +29,7 @@ $n: 0;
 @each $titulo, $url in $imgs {
     $n: $n + 1;
     #card#{$n} {
-        background-image: url(./../../images/#{$url});
+        background-image: url(./img/#{$url});
         background-size: cover;
         background-position: center;
     }
@@ -47,7 +47,7 @@ $n: 0;
 @each $titulo2, $url2 in $turismo {
     $n: $n + 1;
     #imgTurismo#{$n} {
-        background-image: url(./../../images/#{$url2});
+        background-image: url(./img/#{$url2});
         background-size: cover;
         background-position: center;
     }

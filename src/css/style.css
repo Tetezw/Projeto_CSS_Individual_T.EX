@@ -20,63 +20,63 @@ button {
 
 /*Cards Acomodações*/
 #card1 {
-  background-image: url(./../../images/1.jpg);
+  background-image: url(./img/1.jpg);
   background-size: cover;
   background-position: center;
 }
 
 #card2 {
-  background-image: url(./../../images/2.jpg);
+  background-image: url(./img/2.jpg);
   background-size: cover;
   background-position: center;
 }
 
 #card3 {
-  background-image: url(./../../images/3.jpg);
+  background-image: url(./img/3.jpg);
   background-size: cover;
   background-position: center;
 }
 
 #card4 {
-  background-image: url(./../../images/4.jpg);
+  background-image: url(./img/4.jpg);
   background-size: cover;
   background-position: center;
 }
 
 #card5 {
-  background-image: url(./../../images/5.jpg);
+  background-image: url(./img/5.jpg);
   background-size: cover;
   background-position: center;
 }
 
 #card6 {
-  background-image: url(./../../images/6.jpg);
+  background-image: url(./img/6.jpg);
   background-size: cover;
   background-position: center;
 }
 
 /*Cards turismo */
 #imgTurismo1 {
-  background-image: url(./../../images/marco-zero-1.jpg);
+  background-image: url(./img/marco-zero-1.jpg);
   background-size: cover;
   background-position: center;
 }
 
 #imgTurismo2 {
-  background-image: url(./../../images/conheca-a-cultura.jpeg);
+  background-image: url(./img/conheca-a-cultura.jpeg);
   background-size: cover;
   background-position: center;
 }
 
 #imgTurismo3 {
-  background-image: url(./../../images/piscinas-naturais.jpg);
+  background-image: url(./img/piscinas-naturais.jpg);
   background-size: cover;
   background-position: center;
 }
 
 /*HEADER*/
 .header {
-  background: linear-gradient(0deg, rgba(103, 124, 45, 0.7), rgba(27, 5, 69, 0.8)), url(./../../images/swimming-2392283_960_720.jpg);
+  background: linear-gradient(0deg, rgba(103, 124, 45, 0.7), rgba(27, 5, 69, 0.8)), url(./img/swimming-2392283_960_720.jpg);
   background-position-y: center;
   background-size: cover;
   background-attachment: fixed;
