@@ -1,0 +1,54 @@
+
+//CORES 
+$corRoxa: #1b0545;
+$corAmarela: #fed403;
+$corAzul:#7991bd;
+$corVerde: #677C2D;
+$corMarrom: #67331D;
+$corBranca: #fff;
+
+//FONTES
+$fontePassion: 'Passions Conflict', cursive;
+$fonteSource: 'Source Sans Pro', sans-serif;
+$fonteBree: 'Bree Serif', serif;
+
+// IMAGENS 
+$imgBack: url(/public/images/swimming-2392283_960_720.jpg);
+
+//Imagens da seção acomodações
+$imgs: (
+    "Piscina": "1.jpg",
+    "Suíte": "2.jpg",
+    "Corredor Leste": "3.jpg",
+    "Entrada": "4.jpg",
+    "Suíte com varanda": "5.jpg",
+    "Restaurante": "6.jpg",
+);
+/*Cards Acomodações*/
+$n: 0;
+@each $titulo, $url in $imgs {
+    $n: $n + 1;
+    #card#{$n} {
+        background-image: url(/public/images/#{$url});
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+//Imagens da seção turismo
+$turismo: (
+    "Marco Zero": "marco-zero-1.jpg",
+    "Museu do Trem": "conheca-a-cultura.jpeg",
+    "Piscinas naturais": "piscinas-naturais.jpg",
+);
+
+/*Cards turismo */
+$n: 0;
+@each $titulo2, $url2 in $turismo {
+    $n: $n + 1;
+    #imgTurismo#{$n} {
+        background-image: url(/public/images/#{$url2});
+        background-size: cover;
+        background-position: center;
+    }
+}

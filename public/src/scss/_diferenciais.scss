@@ -1,0 +1,44 @@
+@use 'mixin' as mx;
+@use 'variaveis' as v;
+
+.diferenciais {
+    @include mx.container;
+    margin-bottom: 80px;
+
+    &__h2 {
+        @include mx.h2;
+    }
+    &__gerais {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+        padding: 30px 0;
+        border-top: 6px solid v.$corRoxa;
+        border-bottom: 6px solid v.$corRoxa;
+    }
+    &__item {
+        width: calc(100%/6);
+        align-content: center;
+        & i {
+            font-size: 6rem;
+            text-align: center;
+            color: v.$corRoxa;
+        }
+        & h3 {
+            text-align: center;
+        }
+    }
+    & ul {
+        font-size: 18px;
+        font-family: v.$fonteSource;
+        text-align: justify;
+        margin: 10px 0;
+        list-style:circle;
+        margin-top: 40px;
+        & li {
+            margin: 10px 0;
+        }
+    }
+}

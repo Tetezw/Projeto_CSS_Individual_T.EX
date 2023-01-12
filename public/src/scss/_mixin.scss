@@ -1,0 +1,45 @@
+@use 'variaveis' as v;
+
+@mixin container {
+    width: 80%;
+    margin: auto;
+}
+
+@mixin h2 {
+    font-family: v.$fonteBree;
+    font-size: 35px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    &::first-letter {
+        font-family: v.$fontePassion;
+        font-size: 60px;
+    }
+}
+
+@mixin paragrafo {
+    font-size: 18px;
+    font-family: v.$fonteSource;
+    text-align: justify;
+    text-indent: 15px;
+    margin: 10px 0;
+}
+
+@mixin buttonColor {
+    // background-color: rgba(121, 145, 189, 0.5);
+    background-color: rgba(103, 124, 45, 0.7);
+    border: none;
+    box-shadow: 2px 2px 3px v.$corRoxa;
+}
+
+@mixin buttonColor2 {
+    background-color: rgba(27, 5, 69, 0.8);
+    border: none;
+    box-shadow: 2px 2px 3px v.$corRoxa;
+}
+
+@mixin containerAzul {
+    padding: 5px 0 50px 0;
+    width: 100%;
+    $corAzul: lighten(v.$corAzul, 25%);
+    background-color: $corAzul;
+}

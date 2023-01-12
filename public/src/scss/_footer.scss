@@ -1,0 +1,33 @@
+@use 'variaveis' as v;
+
+
+/*FOOTER*/
+.footer {
+    height: 200px;
+    background-color: v.$corRoxa;
+    color: v.$corAmarela;
+    padding: 30px 80px 40px 80px;
+    & h3 {
+        font-size: 20px;
+        margin-bottom: 5px;
+        // border-left: 5px solid v.$corAmarela;
+    }
+    & p {
+        color: #fff;
+    }
+    & a {
+        color: #fff;
+        margin: 6px 0;
+    }
+    &__geral {
+        display: flex;
+        justify-content: space-around;
+    }
+    .fa {
+        font-size: 20px;
+        margin: 2px 5px;
+    }
+    .fa-arrow-right {
+        font-size: 12px;
+    }
+}

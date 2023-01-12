@@ -1,0 +1,42 @@
+@use 'mixin' as mx;
+@use 'variaveis' as v;
+
+/*SEÇÃO TURISMO*/
+.turismo {
+    @include mx.containerAzul;
+    &__textoInicial {
+        @include mx.container;
+        & p {
+            @include mx.paragrafo;
+            margin-bottom: 20px;
+        }
+    }
+    &__h2 {
+            @include mx.h2;
+        }
+    &__geral {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    &__cards {
+        margin: 5px;
+        width: 30%;
+        height: 200px;
+        border: 8px solid v.$corAzul;
+        // box-shadow: 8px 8px 10px #999;
+    }
+    & button {
+        display: block;
+        margin: 30px auto 0 auto;
+        padding: 20px 50px;
+        width: 40%;
+        @include mx.buttonColor;
+        & a {
+            font-size: 25px;
+            font-family: v.$fonteBree;
+            color: v.$corRoxa;
+        }
+    }
+}
